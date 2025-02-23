@@ -1,0 +1,574 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.wrapper{
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 25px;
+	text-align: center;
+	max-width: 1000px;
+}
+
+#Container{
+	height: 50px;
+	width: 1000px;
+	font-size: 13px;
+	font-family: "Open Sans";
+	color: #FFFFFF;
+	font-weight: 600;
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+#Header{
+	height: 110px;
+	margin: 0 auto;
+	position: relative;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-left: 35px;
+	background-color: #FFFFFF;
+}
+
+.Logo{
+    height: 50px;
+    width: 250px;
+    display: block;
+    background: url('images/ThatcherYardLogo.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 20px;
+}
+
+.Menu{
+    width: 460px;
+    display: block;
+    float: right;
+    clear: right;
+    margin-top: 25px;
+    margin-right: 0px;
+    color: #C5C5C5;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.MenuADA{
+    width: 40px;
+    height: 75px;
+    margin-left: 10px;
+    display: block;
+    float: right;
+    clear: left;
+    background-image: url(images/ADA_Logo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.MenuEqualHousing{
+    width: 40px;
+    height: 75px;
+    margin-left: 0px;
+    display: block;
+    float: right;
+    clear: left;
+    background-image: url("images/EqualHousing.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+a {
+	color: #04547F;
+	text-decoration: none;
+    line-height: 40px;   
+}
+
+a:hover {
+	font-family: 'Open Sans';
+	font-weight: 600;
+    color: #04547F;
+}
+
+.Font5{
+    font-family: "Open Sans";
+    color: #108200;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a.Font5:link {
+    color: #108200;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+a.Font5:hover {
+    color: #035100;
+    font-weight: 600;
+}
+
+
+#Render{
+	height: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 15px;
+	margin-bottom: 0px;
+	background-position: center top;
+	background-attachment: scroll;
+	background-size: cover;
+	display: block;
+	background-image: url("images/render.jpg");
+}
+
+#Info{
+    background-image: url(images/background.jpg);
+    background-size: 100%; 
+    height: 1150px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+#Units{
+	width: auto;
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 0px;
+    font-family: "Open Sans";
+    font-weight: 800;
+	color: #FFFFFF;
+	font-size: 80px;
+    line-height: 70px    
+}
+
+.OneBedroomUnit{
+    background-image: url("images/1bedroomunit.png");
+    background-size: 100%;
+    width: 200px;
+    height: 320px;
+    display: block;
+    float: left;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    background-position: bottom;
+    line-height: 700px;
+    font-family: "Open Sans";
+    font-size: 18px;
+	font-weight: 500;
+}
+
+.TwoBedroomUnit{
+    background-image: url("images/2bedroomunit.png");
+    background-size: 100%;
+    width: 300px;
+    height: 320px;
+    display: block;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: #FFFFFF;
+    line-height: 700px;
+    font-family: "Open Sans";
+    font-size: 18px;
+	font-weight: 500;
+}
+
+.ThreeBedroomUnit{
+    background-image: url("images/3bedroomunit.png");
+    background-size: 100%;
+    width: 260px;
+    height: 320px;
+    display: block;
+    float: left;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    background-position: bottom;
+    line-height: 700px;
+    font-family: "Open Sans";
+    font-size: 18px;
+	font-weight: 500;
+}
+
+.PropertyInfo{
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	max-width: 800px;
+	clear: both;
+}
+
+.TYM{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    background-attachment: scroll;
+    background-size: 100%;
+    display: block;
+    background-image: url("images/thatcheryardmap.png");
+    background-position: center top;
+    height: 350px;
+    padding-top: 50PX;
+    background-repeat: no-repeat;
+}
+
+#Map{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    background-attachment: scroll;
+    background-size: cover;
+    display: block;
+     background-image: url(images/map3.jpg);
+    background-position: center top;
+    height: 600px;
+    padding-top: 50px;
+}
+
+
+#InterestList{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+    background-attachment: scroll;
+    background-size: cover;
+    display: block;
+    background-image: url(images/background.jpg);
+    background-position: center top;
+    height: auto;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+
+#Footer{
+	background-color: #FFFFFF;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+}
+
+#FooterLogo{
+    display: block;
+    background-image: url(images/tsalogo.png);
+    background-position: center top;
+    background-size: 100% 100%;
+    height: 55px;
+    width: 350px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.ConfirmationMessage{
+	font-family: "Open Sans";
+	font-weight: 400;
+	font-size: 24px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	position: relative;
+	padding-top: 50px;
+	text-align: center;
+	max-width: 1000px;
+}
+
+.Slogan{
+    font-family: "Times New Roman", "Times Roman", Baskerville;
+    font-style: italic;
+    font-weight: normal;
+    color: #123517;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.Copyright{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	color: #3D3D3D;
+	font-size: 12px;
+	line-height: 40px;
+}
+
+h1 {
+	font-size: 90px;
+	line-height: 0px;
+	font-weight: 800;
+}
+
+h2 {
+	font-size: 60px;
+	line-height: 0px;
+	font-weight: 800;
+}
+
+b {
+	font-weight: 700;
+}
+
+.Font1{
+    font-family: "Open Sans";
+    color: #FFFFFF;
+    font-size: 110px;
+    font-weight: 700;
+}
+
+.Font2{
+    font-family: "Open Sans";
+    color: #013C00;
+    font-size: 24px;
+}
+
+.Font3{
+    font-family: "Open Sans";
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 50px;
+}
+
+.Font4{
+    font-family: "Open Sans";
+    color: #013C00;
+    font-size: 12px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    padding-top: 0px;
+    line-height: 20px;
+}
+
+.Font5{
+    font-family: "Open Sans";
+    color: #013C00;
+    font-size: 10px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    padding-top: 0px;
+    line-height: 20px;
+}
+
+a.Font9:link, a.Font10:link {
+	color: #FFFFFF;
+	font-weight: 700;
+}
+
+a.Font9:hover, a.Font10:hover {
+	color: #0D4900;
+	font-weight: 700;
+}
+
+#interestlist {
+	text-align: center;
+	font-family: 'Open Sans';
+	color: white;
+	font-size: 40px;
+	text-height: 12px;
+	padding-top: 225px;
+	line-height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+input {
+	font-family: 'Open Sans';
+	font-size: 20px;
+	color: #848484;
+	width: 400px;
+	height: 40px;
+	border-radius: 5px;
+	margin: 10px;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.submit-button {
+    cursor: pointer;
+    color: white;
+    background-color: #015200;
+    border: 0 solid white;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -khtml-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    font-family: Arial, Helvetica;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.submit-button {
+	width: 150px;
+	padding-top: 5px;
+	margin-top: 20px;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: #232323;
+    font-family: Arial, Helvetica;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+@media only screen and (min-width: 1800px) {
+    
+     #Render{
+    height: 800px;
+    }
+    
+    #Map{
+    height: 1000px;
+    }
+}
+
+
+@media only screen and (max-width: 1800px) {
+    
+     #Render{
+    height: 700px;
+    }
+    
+    #Map{
+    height: 900px;
+
+    }
+}
+
+
+@media only screen and (max-width: 1600px) {
+    #Render{
+    height: 600px;
+    }
+    
+    #Map{
+    height: 700px;
+    }
+}
+
+
+@media only screen and (max-width: 1300px) {
+ 
+    #Render{
+    height: 400px;
+    }
+    
+    #Map{
+    height: 700px;
+    }
+    
+}
+
+@media only screen and (max-width: 950px) {
+    
+    .Menu{
+    text-align: center;
+}
+    
+    #Render{
+    height: 400px;
+    }
+    
+    .Font1{
+    font-size: 80px;
+    line-height: 80px;
+}
+    
+}
+
+@media only screen and (max-width: 800px) {
+    
+    #Units{
+	width: 500px;
+	height: 290px;
+    margin-right: auto;
+	margin-left: auto;
+    }
+    
+    .Font1{
+    font-size: 80px;
+    line-height: 80px;
+}
+    
+     #Header{
+    height: 140px;
+	text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+    
+    .Logo{
+    margin-left: auto;
+    margin-right: auto;
+    clear: none;
+    float: none;
+    }
+    
+    .Menu{
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    
+}
+    
+    #Render{
+    height: 350px;
+    }
+}
+    
+
+@media only screen and (max-width: 600px) {
+    
+  
+    #Render{
+    height: 250px;
+    }
+    
+    .Font1{
+    font-size: 80px;
+    line-height: 80px;
+}
+   
+    #Units{
+	width: 220px;
+	height: 400px;
+    margin-right: auto;
+	margin-left: auto;
+}
+    
+    .Logo{
+    display: none;
+    }
+    
+    .Menu{
+    margin-top: 0px;
+    padding: 0px;
+    width: 430px;
+}
+    
+    #Header{
+    height: 50px;
+    padding: 0px;
+    margin-top: 15px;
+}
+    
+}

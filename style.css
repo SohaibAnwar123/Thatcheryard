@@ -1,0 +1,860 @@
+@charset "UTF-8";
+
+/* CSS Document */
+* {
+    font-family: "Open Sans";
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    color: #D5FFD5;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #D5FFD5;
+}
+
+a {
+    color: #108200;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: 600;
+    color: #035100;
+}
+
+/*** Responsive ***************************************/
+img {
+    outline: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+#Header {
+    background-color: #FFFFFF;
+    height: 110px;
+    margin: 0 auto;
+    position: relative;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-left: 35px;
+}
+
+.Logo {
+    height: 50px;
+    width: 220px;
+    margin-top: 23px;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+    background: url('images/ThatcherYardLogo2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.Menu {
+    width: 620px;
+    margin-top: 20px;
+    margin-right: 0px;
+    display: block;
+    float: right;
+    clear: right;
+    color: #C5C5C5;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: right;
+    font-weight: 100;
+}
+
+.Menu a {
+    color: #108200;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Menu a:link {
+    color: #108200;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.Menu a:hover {
+    color: #035100;
+    font-weight: 600;
+}
+
+.MenuADA {
+    width: 40px;
+    height: 75px;
+    margin-left: 10px;
+    display: block;
+    float: right;
+    clear: left;
+    background-image: url("images/ADA_Logo.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.MenuEqualHousing {
+    width: 40px;
+    height: 75px;
+    margin-left: 0px;
+    display: block;
+    float: right;
+    clear: left;
+    background-image: url("images/EqualHousing.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #FFFFFF;
+    color: #108200;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #FFFFFF;
+}
+
+
+
+#Render {
+    height: 500px;
+    margin: 0 auto;
+    background-position: center top;
+    background-attachment: scroll;
+    background-size: cover;
+    display: block;
+    background-image: url("images/render.jpg");
+}
+
+#Info {
+    background-image: url("images/background.jpg");
+    background-size: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.PropertyInfo {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    max-width: 820px;
+    clear: both;
+}
+
+.PropertyInfo h1 {
+    color: #FFFFFF;
+    font-size: 100px;
+    font-weight: 700;
+    margin: auto;
+    padding: 0;
+}
+
+.PropertyInfo p {
+    color: #D5FFD5;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#Units {
+    width: auto;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 0px;
+    font-weight: 800;
+    color: #FFFFFF;
+    font-size: 80px;
+    line-height: 70px
+}
+
+.TYM {
+    margin: 0 auto;
+    display: block;
+    min-height: 350px;
+}
+
+.TYM .vertical {
+    display: none;
+}
+
+#UnitsList {
+    display: table;
+    margin: 0 auto;
+}
+
+.One img {
+    display: block;
+    width: 200px;
+}
+
+.Two img {
+    display: block;
+    width: 300px;
+}
+
+.Three img {
+    display: block;
+    width: 260px;
+}
+
+.BedroomUnit {
+    display: table-cell;
+    padding-right: 20px;
+    vertical-align: bottom;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* #Map {
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    background-attachment: scroll;
+    background-size: cover;
+    display: block;
+    background-image: url("images/map3.jpg");
+    background-position: center top;
+} */
+
+#GoogleMap {
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    display: block;
+}
+
+#InterestList {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    background-attachment: scroll;
+    background-size: cover;
+    background-image: url("images/background.jpg");
+    background-position: center top;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+input {
+    font-size: 20px;
+    color: #848484;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.submit-button {
+    cursor: pointer;
+    color: white;
+    background-color: #015200;
+    border: 0 solid white;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -khtml-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    font-family: Arial, Helvetica;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.submit-button {
+    width: 150px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: #232323;
+    font-family: Arial, Helvetica;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#InterestList h2 {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 50px;
+}
+
+#InterestList p {
+    color: #D5FFD5;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    padding-top: 0px;
+    line-height: 20px;
+}
+
+.ConfirmationMessage {
+    max-width: 1000px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#Footer {
+    background-color: #FFFFFF;
+    height: 180px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+#FooterLogo {
+    display: block;
+    background-image: url(images/tsalogo.png);
+    background-position: center top;
+    background-size: 100% 100%;
+    height: 55px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Slogan {
+    font-family: "Times New Roman", "Times Roman", Baskerville;
+    font-style: italic;
+    font-weight: normal;
+    color: #123517;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.legalbox {
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.legalicon {
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+.font1 {
+    font-family: "Open Sans";
+    font-weight: 800;
+    font-size: 24px;
+    color: #D5FFD5;
+}
+
+.Font5 {
+    font-family: "Open Sans";
+    color: #D5FFD5;
+    font-size: 12px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    line-height: 20px;
+}
+
+/* faqs slier start  */
+.faqs_wrap {
+    background-color: #015301;
+
+}
+
+.faqs_wrap .faqs_inner {
+    max-width: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 0;
+    position: relative;
+    z-index: 9999;
+}
+
+.faqs_wrap .faqs_title {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.faqs_wrap .faqs_slider .faqs_subtitle {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 20px 0;
+    text-align: center;
+    color: #6AB81C;
+}
+
+.faqs_wrap .slick-dots li {
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+
+.faqs_wrap .slick-dots {
+    bottom: -40%;
+}
+.faqs_wrap .slick-slider {
+    margin-top: 30px;
+}
+
+.faqs_wrap .slick-dots .slick-active {
+    background: #6AB81C;
+    border-radius: 50%;
+}
+
+.faqs_wrap .slick-prev:before {
+    content: "";
+}
+
+.faqs_wrap .slick-prev {
+    left: -15%;
+}
+
+.faqs_wrap .slick-next {
+    right: -15%;
+}
+
+.faqs_wrap .slick-next:before {
+    content: "";
+}
+
+.faqs_wrap .slick-prev.slick-disabled,
+.slick-next.slick-disabled {
+    opacity: .25;
+}
+
+.faqs_wrap .faqs_slider .faqs_details {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+.yad_subtitle{
+    color: #8d0604 !important;
+    text-align: center;
+    margin: 0 !important;
+}
+
+@media only screen and (max-width: 2400px) {
+    #Render {
+        height: 800px;
+    }
+
+    #Map {
+        height: 1000px;
+    }
+}
+
+@media only screen and (max-width: 2200px) {
+    #Render {
+        height: 800px;
+    }
+
+    #Map {
+        height: 1000px;
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    #Render {
+        height: 700px;
+    }
+
+    #Map {
+        height: 1000px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #Render {
+        height: 500px;
+    }
+
+    #Map {
+        height: 1000px;
+    }
+    .faqs_wrap .slick-prev {
+        left: -5%;
+    }
+    .faqs_wrap .slick-next {
+        right: -5%;
+    }
+    .faqs_wrap .faqs_slider .faqs_subtitle {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .faqs_wrap .faqs_title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    #Header {
+        height: 140px;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .Logo {
+        float: none;
+    }
+
+    .Menu {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        text-align: center;
+    }
+  
+
+}
+
+
+@media only screen and (max-width: 950px) {
+    #Render {
+        height: 400px;
+    }
+
+    .PropertyInfo h1 {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    #Info {
+        background-size: 300%;
+        background-position: center;
+        height: auto;
+        padding-top: 75px;
+    }
+
+    #Info::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .BedroomUnit {
+        height: auto;
+        display: block;
+        margin: 40px 20px;
+        padding: 0;
+        vertical-align: bottom;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .BedroomUnit img {
+        width: auto;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    #Map {
+        height: 600px;
+    }
+    .faqs_wrap .faqs_slider .faqs_details {
+        font-size: 18px;
+        max-width: 660px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .faqs_wrap .slick-prev {
+        left: 10px;
+    }
+    .faqs_wrap .slick-next {
+        right: 10px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 800px) {
+    #Header {
+        height: 140px;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .Logo {
+        float: none;
+    }
+
+    .Menu {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        text-align: center;
+    }
+
+    .MenuADA {
+        display: none;
+    }
+
+    .MenuEqualHousing {
+        display: none;
+    }
+
+    .PropertyInfo h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .PropertyInfo p {
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    #Header {
+        height: 140px;
+    }
+
+    .Menu {
+        width: auto;
+        margin-top: 0px;
+        padding: 0px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    #Render {
+        height: 250px;
+    }
+
+    .PropertyInfo h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .TYM .horizontal {
+        display: none;
+    }
+
+    .TYM .vertical {
+        display: block;
+    }
+
+    #Units {
+        font-size: 50px;
+        line-height: 100px;
+    }
+
+    #Map {
+        background-image: url(images/map3.jpg);
+    }
+
+    #InterestList p {
+        font-size: 16px;
+    }
+
+    input[type=text],
+    input[type=email],
+    input[type=url],
+    input[type=password],
+    input[type=search],
+    input[type=tel],
+    textarea,
+    select {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    #Info,
+    #InterestList,
+    #Footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .Slogan {
+        font-size: 11px;
+        line-height: 30px;
+    }
+    .faqs_wrap .faqs_title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .faqs_wrap .faqs_inner {
+        padding: 40px 0;
+    }
+    .faqs_wrap .faqs_slider .faqs_subtitle {
+        font-size: 20px;
+        line-height: 25px;
+        margin: 10px;
+    }
+    .faqs_wrap .slick-slider {
+        margin-top: 20px;
+    }
+    .faqs_wrap .slick-dots {
+        bottom: -60px;
+    }
+    .faqs_wrap .slick-prev {
+     display: none !important;
+    }
+    .faqs_wrap .slick-next {
+        display: none !important;
+    }
+}
+
+.card {
+    background-color: transparent;
+    border: unset;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+}
+
+.map_section .map_wrapper iframe {
+    height: 100vh;
+}
+
+.map_wrapper .card-img-overlay {
+    top: unset;
+    bottom: 1.5rem;
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+    border-radius: calc(0.25rem - 1px);
+}
+
+.location_box {
+    min-width: 500px;
+    width: fit-content;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8rem;
+    padding: 1rem 2em;
+    border-radius: 12px;
+    filter: drop-shadow(0 0 13.5px rgba(0, 0, 0, 0.5));
+    background-image: url(images/background.jpg);
+    background-position: left;
+}
+
+.location_box h5 {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    color: white;
+}
+
+.location_box h6 {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    font-size: 24px;
+    line-height: 24px;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+}
